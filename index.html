@@ -2,46 +2,64 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Resume Demo</title>
+  <title>My Resume</title>
   <meta name="author" content="Aleh Serhiyenia">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
   <link rel="stylesheet" type="text/css" href=".\css\styles.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
 </head>
 
 <body>
-    <header class="clearfix">
-        <div id="info">
-            <h1><span itemprop="name">Aleh Serhiyenia</span></h1>
+    <div id="allResume">
+        <header class="clearfix">
+            <div id="photo">
+                <img src=".\images\MyFoto.png" alt="Aleh Serhiyenia resume photo avatar" itemprop="image" height="400px"/>
+            </div>
+            <div id="info">
+                <h1><span itemprop="name">Aleh Serhiyenia</span></h1>
 
-            <h3><span itemprop="jobTitle">Ministry of Internal Affairs (It-department)</span></h3>
-            <small itemprop="DateBirth">
-                <span>Date of birth:  </span>
-                <span itemprop="addressLocality"> 28 August 1980</span>
-            </small> <br>
-            <small itemprop="address">
+                <h3><span itemprop="jobTitle">Ministry of Internal Affairs (It-department)</span></h3>
+                <div id = "contacts" itemprop="DateBirth">
+                    <span>Date of birth:  28 August 1980</span>
+            </div id = "contacts"> <br>
+                <div id = "contacts" itemprop="address">
                
-                <span itemprop="addressLocality">Minsk</span>,
-                <span itemprop="addressRegion">Minsk Region</span>,
-                <span itemprop="addressCountry">The Republic of Belarus</span>
-            </small> <br>
+                    <span itemprop="addressLocality">Minsk</span>,
+                    <span itemprop="addressRegion">Minsk Region</span>,
+                    <span itemprop="addressCountry">The Republic of Belarus</span>
+                </div> <br>
           
-            <small><span itemprop="email">sergienya.oleg@yandex.ru</span></small><br>
-           
-            <small><span itemprop="phone">+375(29)153 35 63</span></small><br>
-            <small><a href="https://www.linkedin.com/in/aleh-serhiyenia-b11486a7/" itemprop="url">Linkedin</a> &bull; 
+                <div id = "contacts"><span itemprop="email">sergienya.oleg@yandex.ru</span></div><br>
+                <div id = "contacts"><span itemprop="phone">+375(29)153 35 63</span></div><br>
+                <div id = "contacts"><a href="https://www.linkedin.com/in/aleh-serhiyenia-b11486a7/" itemprop="url">Linkedin</a> &bull; 
                     <a href="https://www.facebook.com/profile.php?id=100011117050051">Facebook</a> 
-                    &bull; <a href="https://github.com/Pulya10c/" itemprop="url">Github</a>;</small>
-        </div>
-        <div id="photo">
-            <img src=".\images\Myfoto.png" alt="Aleh Serhiyenia resume photo avatar" itemprop="image" height="350" class="w3-hover-sepia"/>
-        </div>
-    </header> 
+                    &bull; <a href="https://github.com/Pulya10c/" itemprop="url">Github</a>;</div>
+            </div>
+        </header> 
+    
+        <section id="profile">
+			<h2>Summary &amp; Profile</h2>
+			<p itemprop="description">I am 38 years old, my job is in the Ministry of the Interior in 
+                IT Department. I have been fond of drawing for more than 15 years (I am self-taught 
+                artist), so I like everything related to images. I like to learn everything new. I 
+                want to develop in a new area. Easy to learn and not afraid of large volumes. The main 
+                thing for me is the development of my skills.</p>
+			
+			<p>Start a career from a Junior position in a big company, gain knowledge 
+                and grow to Teamlead in 5 years</p>
+        </section>
+        
+        <section id="skills">
 
+            <h2 itemprop="name">Skillset</h2>
+            <p>Experience more than 5 years in graphic editors Photoshop, Adobe illustrator, CorelDraw.
+             I have experience in developing Delphi, Html / Css. Little experience with MySQL. 
+            I have good analytical skills. Easy to learn. Experience in a large team. 
+            level of English Elementary.</p>
+        
+        </section>
+    </div>
 </body>
 
 </html>
