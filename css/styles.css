@@ -23,7 +23,8 @@ h1 {
     font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
     color: #454545; 
     font-size: 5em; 
-    margin-bottom: 8px; }
+    margin-bottom: 8px; 
+}
 
 h2 { 
     font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
@@ -31,14 +32,16 @@ h2 {
     font-size: 2.5em; 
     font-style: italic;
     margin-bottom: 12px; 
-    text-decoration: underline; }
+    text-decoration: underline; 
+}
 
 h3 { 
     font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
     color: #777; 
     font-weight: normal; 
     font-size: 1.8em; 
-    margin-bottom: 15px; }
+    margin-bottom: 15px; 
+}
 
 h4 {  
     font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
@@ -62,17 +65,22 @@ small {
     color: #656565; 
     font-size: 1.6em; 
     display: block; 
-    margin-bottom: 6px; }
+    margin-bottom: 6px; 
+}
 
 img { 
     border: 0; 
-    max-width: 100%; }
+    max-width: 100%; 
+}
 
 a { 
     color: #5582d6; 
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
-a:hover { text-decoration: underline; }
+a:hover { 
+    text-decoration: underline; 
+}
 
 #forstyles {
     margin-left: 35px;
@@ -134,7 +142,9 @@ a:hover { text-decoration: underline; }
  }
 
 
-#photo { float: right; }
+#photo { 
+    float: right; 
+}
 
 #photo img { 
 -webkit-border-radius: 3px;
@@ -149,8 +159,23 @@ padding: 5px;
 }
 
 
-.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; }
+.clearfix:after { 
+    content: "."; 
+    display: block; 
+    clear: both; 
+    visibility: hidden; 
+    line-height: 0; 
+    height: 0; 
+}
+
+.clearfix {
+    display: inline-block; 
+}
  
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+html[xmlns] .clearfix { 
+    display: block;
+ }
+
+* html .clearfix { 
+    height: 1%; 
+}
