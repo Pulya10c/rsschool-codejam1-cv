@@ -98,14 +98,6 @@ a:hover {
     padding-left: 100px;
 }
 
-#myfooter {
-    padding-top:15px;
-    margin-top: 45px;
-    max-width: 1024px;
-    border-top: 1px solid rgb(170, 170, 170);
-    text-align:  center;
-}
-
 #allResume { 
     margin: 0px 50px; 
     padding: 20px 40px 10px; 
@@ -179,3 +171,77 @@ html[xmlns] .clearfix {
 * html .clearfix { 
     height: 1%; 
 }
+
+footer {
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    text-align:center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 45px 0px 0px;
+    border-top: 1px solid rgb(170, 170, 170);
+    max-height:150px;
+  }
+  
+ul.submenu{
+    border-radius:5px;
+    display:inline-block;
+    padding:15px 10px 5px;
+    margin:0;
+    overflow:hidden;
+}
+li{
+    display:inline-block;
+    padding: 0px 35px;
+}
+      
+i.fa-linkedin::after{
+    height:200%;
+    width:200%;
+    border-radius:0px;
+    opacity:1;
+}
+          
+i.fa-facebook-square::after{
+    height:200%;
+    width:200%;
+    border-radius:0px;
+    opacity:1;
+}
+
+i.fa-github-square::after{
+    height:300%;
+    width:300%;
+    border-radius:0px;
+    opacity:1;
+}
+        
+i.fa-linkedin:hover{
+    color: rgb(59,89,152);
+    border-radius:1px;
+    opacity:1;
+}
+          
+i.fa-facebook-square:hover{
+    color: rgb(59,89,152);
+    border-radius:1px;
+    opacity:1;
+}
+
+i.fa-github-square:hover{
+    color: rgb(34, 34, 34);
+    border-radius:1px;
+    opacity:1;
+}
+
+.gray {
+    color:rgb(138, 138, 138);
+}
+        
+      
+    
+  
+  
